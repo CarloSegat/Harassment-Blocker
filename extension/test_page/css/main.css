@@ -1,0 +1,68 @@
+@font-face {
+    font-family: school;
+    src: url("../font/AlexBrush-Regular.eot");
+    src: url("../fonts/AlexBrush-Regularr.eot#iefix") format("embedded-opentype"),
+        url("../fonts/AlexBrush-Regular.woff") format("woff"),
+        url("../font/AlexBrush-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Ripristino FLOAT*/
+.cf:before, .cf:after {content: "";display: table;}
+.cf:after{clear:both;}
+.cf {zoom: 1;}
+
+
+h1{
+    font-family: school, serif;
+}
+
+body {
+    background-image: url("../img/hackaton.png");
+
+}
+
+.chat_container {
+    position: fixed;
+    bottom: 0;
+    height: 334px;
+    width: 261px;
+}
+.message_container {
+    position: relative;
+    width: 220px;
+    top: 60px;
+    left: 20px;
+    margin-bottom: 10px;
+}
+.chat{
+    background-image: url("../img/Message_box.png");
+    position: absolute;
+    height: 334px;
+    width: 261px;
+    background-color: white;
+    box-shadow: 0 0 1px black;
+}
+
+.name {
+    position: relative;
+    top: 10px;
+    right: -17px;
+}
+
+.profile {
+    background-image: url("../img/trump.gif");
+    width: 40px;
+    height: 40px;
+    margin-right: 3px;
+    float: left;
+}
+
+.message{
+    background-color: #4080FF;
+    border-radius: 8%;
+    padding: 5px;
+    max-width: 170px;
+    float: right;
+}

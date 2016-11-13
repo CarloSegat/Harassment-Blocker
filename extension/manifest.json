@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "My_extension",
+  "description": "This extension shows a Google Image search result for the current page",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_popup": "function.html",
+    "default_title": "Click here!",
+    "default_icon": "logo.png"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
